@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Gelasio|Open+Sans|Raleway|Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+body {
+    background-color: lightpink;
+    font-family: 'Raleway', sans-serif;
+
+}
+h1{
+    font-family: 'Lora', serif;
+    font-size: 300%;
+    text-align: center;
+}
+.link   {
+    color: rgb(0, 0, 5);
+    font-size: 100%;
+    text-align: center;
+}
+.list{
+    font-family: 'Raleway', sans-serif;
+    text-align: start;
+}
+
+.photo img  {
+    border: 20px solid lightblue;
+    background-color: whitesmoke;
+    height: 350px;
+    padding: 25px;
+    margin: 10px
+
+}
+
+.photo { 
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navigation {
+    text-align: center;
+    margin: 10px;
+    padding: 50px solid white;
+    
+}
+
+a{
+    text-decoration: none;
+}
